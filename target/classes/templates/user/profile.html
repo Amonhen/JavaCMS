@@ -1,0 +1,10 @@
+<div class="col col-half-quarter">
+    <div class="menu-object">
+            <img th:src="${user.profilePictureBase64String}"/>
+            <h3 th:text="${user.fullName}"></h3>
+            <h4 th:text="${user.userName}"></h4>
+            <p th:text="${user.email}"></p>
+            <textarea  placeholder="User Info"  th:text="${user.userInfo}" readonly="readonly"></textarea>
+            <a class="btn btn-default" th:href="@{/user-edit}">Edit</a>
+    </div>
+</div>

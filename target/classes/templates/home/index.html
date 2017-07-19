@@ -1,0 +1,11 @@
+<div class="col col-half-quarter">
+
+    redundant
+    <div th:each="category : ${categories}">
+        <h2>
+            <a th:href="@{/category/{id}(id=${category.id})}" th:text="${category.name + ' (' + #sets.size(category.articles) + ')'}"></a>
+        </h2>
+    </div>
+</div>
+
+

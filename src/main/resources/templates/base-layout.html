@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head th:include="fragments/head" th:with="pageTitle='SoftUni Blog'"></head>
+<body>
+<div class="row" id="firstRow">
+<span th:include="fragments/menu"></span>
+<span th:include="${ view }"></span>
+</div>
+<span th:include="fragments/articles"></span>
+<script type="text/javascript" th:src="@{/scripts/custom/scripts-one.js}"></script>
+</body>
+</html>

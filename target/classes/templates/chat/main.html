@@ -1,0 +1,22 @@
+<div class="col col-half-quarter">
+    <div id="video_chat_video_tags" class="video_chat_divs">
+        <video id="local_video" autoplay="autoplay" style="background-color: #1c699d"></video>
+        <video id="remote_video" autoplay="autoplay" style="background-color: #0d1318"></video>
+    </div>
+
+    <div id="video_chat_button_tags" class="video_chat_divs">
+        <button id="rct_connect">Connect</button>
+        <button id="rct_close">Disconnect</button>
+        <button id="start_video">Start video</button>
+    </div>
+
+    <div id="video_chat_text_tags" class="video_chat_divs">
+        <textarea id="conversation" readonly="readonly"></textarea>
+        <input type="text" id="local_message"/>
+    </div>
+
+    <script th:src="@{/scripts/custom/sockjs.js}"></script>
+    <script th:src="@{/scripts/custom/adapter.js}"></script>
+    <script th:src="@{/scripts/custom/webrct.js}"></script>
+</div>
+

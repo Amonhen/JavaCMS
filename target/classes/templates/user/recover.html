@@ -1,0 +1,19 @@
+<div class="col col-half-quarter">
+    <form class="form-horizontal" th:action="@{/recover}" method="post">
+        <fieldset>
+            <legend>Reset Password</legend>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="user_email">Email</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="user_email" placeholder="Email" name="userEmail"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <a class="btn btn-default" th:href="@{/}">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

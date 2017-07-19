@@ -1,0 +1,14 @@
+<div class="col col-quarter" id="menu">
+        <ul id="menu-ul">
+            <li sec:authorize="isAnonymous()"><a th:href="@{/profile}">Login</a></li>
+            <li sec:authorize="isAnonymous()"><a th:href="@{/register}">Register</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/profile}">Profile</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/article/options}">Articles</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/chat-page}">Chat</a></li>
+            <li sec:authorize="hasRole('ADMIN')"><a th:href="@{/admin/categories}">Categories</a></li>
+            <!--<li sec:authorize="hasRole('ADMIN')"><a th:href="@{/admin/site-config}">Setting</a></li>-->
+            <li sec:authorize="hasRole('ADMIN')"><a th:href="@{/admin/users}">Users</a></li>
+            <!--<li sec:authorize="hasRole('ADMIN')"><a th:href="@{/admin/database}">DataBase</a></li>-->
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Logout</a></li>
+        </ul>
+</div>
