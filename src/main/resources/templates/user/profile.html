@@ -1,6 +1,7 @@
 <div class="col col-half-quarter">
     <div class="menu-object">
             <img th:src="${user.profilePictureBase64String}"/>
+            <button class="btn btn-default" style="float: left;position: absolute;top:220px;">Add friend</button>
             <h3 th:text="${user.fullName}"></h3>
             <h4 th:text="${user.userName}"></h4>
             <p th:text="${user.email}"></p>
