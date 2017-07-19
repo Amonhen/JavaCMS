@@ -48,12 +48,12 @@ public class UserController {
             return "redirect:/register";
         }
         System.out.println("User count: " + userRepository.count());
-        if (userRepository.count() > 1 ) {
-            if (userBindingModel.getUserName().equals(this.userRepository.findByUserName(userBindingModel.getUserName()).getUserName())) {
-                System.out.println("Username taken!");
-                return "redirect:/register";
-            }
-        }
+//        if (userRepository.count() > 1 ) {
+//            if (userBindingModel.getUserName().equals(this.userRepository.findByUserName(userBindingModel.getUserName()).getUserName())) {
+//                System.out.println("Username taken!");
+//                return "redirect:/register";
+//            }
+//        }
 
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
         String ProfilePictureBase64 = "data:image/jpeg;base64,";
