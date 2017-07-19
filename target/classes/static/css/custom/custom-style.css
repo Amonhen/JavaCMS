@@ -178,6 +178,7 @@ a:link:active, a:visited:active {
     opacity: 0.5;
 }
 video_chat_button_tags{
+    color: #0d1318;
     opacity: 0.5;
     width: 98%;
 }

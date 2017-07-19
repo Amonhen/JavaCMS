@@ -182,6 +182,9 @@ video_chat_button_tags{
     opacity: 0.5;
     width: 98%;
 }
+#rct_connect,#rct_close,#start_video {
+    color: #0d1318;
+}
 #conversation {
     width: 98%;
     height: 250px;

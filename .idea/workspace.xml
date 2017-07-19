@@ -9,7 +9,7 @@
     <list default="true" id="173b9cb6-6b97-417e-b5a4-4c72c6572e34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/custom/custom-style.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/custom/custom-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/chat/main.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/custom/custom-style.css" afterPath="$PROJECT_DIR$/target/classes/static/css/custom/custom-style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,8 +125,8 @@
       <file leaf-file-name="custom-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/custom/custom-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="180" column="19" lean-forward="false" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
+            <state relative-caret-position="364">
+              <caret line="180" column="19" lean-forward="true" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1240,7 +1240,7 @@
       <workItem from="1500388253265" duration="14138000" />
       <workItem from="1500443586319" duration="2270000" />
       <workItem from="1500446004998" duration="6673000" />
-      <workItem from="1500458378347" duration="1751000" />
+      <workItem from="1500458378347" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="dsssda">
       <created>1500460091390</created>
@@ -1263,11 +1263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500460237990</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="color">
+      <created>1500460493900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500460493900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="701556000" />
+    <option name="totallyTimeSpent" value="701768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1761,8 +1768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/custom/custom-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="180" column="19" lean-forward="false" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
+        <state relative-caret-position="364">
+          <caret line="180" column="19" lean-forward="true" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
           <folding />
         </state>
       </provider>
